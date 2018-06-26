@@ -25,7 +25,7 @@ and for __CSS3__:
 This removes the Phone base picture when the browser size is below 960px.
 
 it should be looking like this:
-![Instagram login page](images\instagram.png)
+![Instagram login page](images/instagram.png)
 
 
 ## FAQ
