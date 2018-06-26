@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #dedfe0;
+}
+
+p {
+  font-family: arial;
+
+}
+
+.signup p{
+  max-width: 200px;
+}
+
+.side img{
+background-size: 454px 618px;
+width: 300px;
+height: 420px;
+}
+
+
+.topsection img {
+  width: 150px;
+}
+
+.store img{
+  height: auto;
+  width: 80%;
+}
+
+#sub{
+  width: 167px;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+.container {
+    text-align: center;
+}
+.signup h2{
+  font-size: 20px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 50%;
+    padding-left: 200px;
+    /* border: solid black; */
+}
+
+/* Middle column */
+.column.middle{
+    width: 50%;
+    /* border: solid black; */
+    background-color: #dedfe0;
+    padding-right: 200px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+/* removing link style, and display horizontally */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    text-decoration: none;
+
+}
+
+a {
+    display: block;
+    padding: 8px;
+}
+
+.login{
+  border: 0.5px solid #999;
+  background-color: white;
+}
+
+/* button */
+.button1 {
+  background-color: #008CBA;
+  /* width: 20px;
+  height: 10px; */
+}
+
+#sub{
+  background-color: #008CBA;
+}
+
+.signup{
+  border: 0.5px solid #999;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.middle{
+  text-align: center;
+}
+
+.container input{
+  display: block;
+}
+
+form{
+  display: inline-block;
+}
+
+h2 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 0.5px solid #999;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   color: #999;
+}
+
+h2 span {
+    background:#fff;
+    padding:0 10px;
+}
